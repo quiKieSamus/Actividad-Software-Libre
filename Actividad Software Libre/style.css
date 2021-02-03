@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: black 2px solid;
+    background-color: peachpuff;
+}
+
+
+h1{
+    font-size: 36px;
+    font-family: Georgia;
+    font-style: italic;
+}
+
+.ruleParagraph{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+label{
+    font-family: roboto;
+}
+
+input[type=text]{
+
+}
+
+input[type=submit]:hover{
+    cursor: pointer;
+}
+
+input[type=submit]{
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 900;
+    font-family: roboto;
+    margin: 4px 2px 4px 85px;
+    border-radius: 200px;
+    border: none;
+    background-color: rgb(182, 160, 121);
+}
+
+a{
+    font-family: roboto;
+    border: solid 4px rgb(182, 160, 121);
+    border-radius: 200px;
+    text-decoration: none;
+    margin: 4px 2px 4px 70px;
+    font-size: 14px;
+    color: black;
+    background-color: rgb(182, 160, 121);
+    font-weight: 900;
+}
+
